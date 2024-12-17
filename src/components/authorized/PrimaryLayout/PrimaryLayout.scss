@@ -1,0 +1,11 @@
+// primary-layout-wrapper
+.inner-layout-main-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  .inner-layout-sidebar {
+    width: 300px;
+    border: 1px solid black;
+  }
+}
